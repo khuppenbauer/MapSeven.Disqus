@@ -1,0 +1,14 @@
+'TYPO3.Neos.NodeTypes:Text':
+  ui:
+    inspector:
+      groups:
+        settings:
+          label: 'Settings'
+  properties:
+    comments:
+      type: boolean
+      ui:
+        label: 'allow Disqus Comments'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'

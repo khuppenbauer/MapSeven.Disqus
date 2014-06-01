@@ -1,0 +1,5 @@
+prototype(TYPO3.Neos.NodeTypes:Text) {
+	comments = ${q(node).property('comments')}
+	templatePath = 'resource://MapSeven.Disqus/Private/Templates/NodeTypes/Text.html'
+	partialRootPath = 'resource://MapSeven.Disqus/Private/Partials/'
+}

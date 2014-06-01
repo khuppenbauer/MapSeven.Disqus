@@ -1,0 +1,13 @@
+{
+    "name": "mapseven/disqus",
+    "type": "typo3-flow-package",
+    "description": "Simple Disqus Integration into TYPO3 Flow and TYPO3 Neos",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MapSeven\\Disqus": "Classes"
+        }
+    }
+}

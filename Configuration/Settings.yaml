@@ -1,0 +1,11 @@
+MapSeven:
+  Disqus:
+    shortname: NULL
+
+TYPO3:
+
+  Neos:
+    typoScript:
+      autoInclude:
+          # auto-include "Private/Resources/TypoScript/Root.ts2" from this package!
+        'MapSeven.Disqus': TRUE

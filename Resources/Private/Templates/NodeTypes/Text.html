@@ -1,0 +1,7 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<div{attributes -> f:format.raw()}>
+{neos:contentElement.editable(property: 'text')}
+<f:if condition="{comments}">
+    <f:render partial="Disqus" />
+</f:if>
+</div>
